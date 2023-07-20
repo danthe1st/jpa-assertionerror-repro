@@ -10,7 +10,7 @@ class SpringTestApplicationTests {
 	private SomeEntityRepository repo;
 
 	@Test
-	void contextLoads() {
+	void someQuery() {
 		System.out.println(repo.getAllByOther_Something(false));
 	}
 
